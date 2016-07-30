@@ -1,5 +1,6 @@
 package kju.projeto.projetokju;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -33,13 +34,19 @@ public class AtividadePrincipal extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                String var1=edtUsuario.getText().toString();
-                String var2=edtSenha.getText().toString();
+                String usuario=edtUsuario.getText().toString();
+                String senha=edtSenha.getText().toString();
 
-                if(var1.equals("teste")|var2.equals("1234")){
+                if(usuario.equals("teste") && senha.equals("1234")){
                     lblResultado.setText("Sucesso");
+                    lblResultado.setTextColor(0xff00ff00);
+                    {
+                        Intent i = new Intent(AtividadePrincipal.this, AtividadeMenu.class);
+                        startActivities(new Intent[]{i});}
+
                 }else{
                     lblResultado.setText("Errado");
+                    lblResultado.setTextColor(0xffff0033);
                 };
 
 

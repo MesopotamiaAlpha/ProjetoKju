@@ -18,6 +18,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AtividadeMenu"
+            android:label="@string/title_activity_atividade_menu"
+            android:parentActivityName=".AtividadePrincipal"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kju.projeto.projetokju.AtividadePrincipal" />
+        </activity>
+        <activity
+            android:name=".AtividadeProdutosDoces"
+            android:label="@string/title_activity_atividade_produtos_doces"
+            android:parentActivityName=".AtividadeMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kju.projeto.projetokju.AtividadeMenu" />
+        </activity>
+        <activity
+            android:name=".AtividadeQuantidade"
+            android:label="@string/title_activity_atividade_quantidade"
+            android:parentActivityName=".AtividadeProdutosDoces"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kju.projeto.projetokju.AtividadeProdutosDoces" />
+        </activity>
     </application>
 
 </manifest>

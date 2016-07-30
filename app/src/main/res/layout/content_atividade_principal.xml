@@ -12,6 +12,18 @@
     tools:context="kju.projeto.projetokju.AtividadePrincipal"
     tools:showIn="@layout/activity_atividade_principal">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@mipmap/logo"
+        android:layout_marginLeft="170dp"
+        android:layout_alignBottom="@+id/edtUsuario"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginStart="170dp" />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +36,9 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="69dp"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="40dp"
+        android:paddingTop="40dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -37,11 +51,16 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="60dp"
         android:layout_alignRight="@+id/edtUsuario"
-        android:layout_alignEnd="@+id/edtUsuario" />
+        android:layout_alignEnd="@+id/edtUsuario"
+        android:layout_marginBottom="20dp" />
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <Button
             android:layout_width="160dp"
@@ -57,9 +76,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Small Text"
+            android:text="Status login"
             android:id="@+id/lblResultado"
-            android:layout_gravity="left|center_vertical" />
+            android:layout_gravity="left|bottom" />
+
     </FrameLayout>
 
 </RelativeLayout>

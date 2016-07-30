@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">ProjetoKju</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Projeto Kju</string>
+    <string name="action_settings">Configuraçoes</string>
+    <string name="title_activity_atividade_menu">Atividade Menu</string>
+    <string name="title_activity_atividade_produtos_doces">Atividade Produtos Doces</string>
+    <string name="section_format">Produto: %1$d</string>
+    <string name="title_activity_atividade_quantidade">AtividadeQuantidade</string>
 </resources>
