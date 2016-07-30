@@ -5,4 +5,5 @@
     <string name="title_activity_atividade_produtos_doces">Atividade Produtos Doces</string>
     <string name="section_format">Produto: %1$d</string>
     <string name="title_activity_atividade_quantidade">AtividadeQuantidade</string>
+    <string name="title_activity_atividade_status">AtividadeStatus</string>
 </resources>

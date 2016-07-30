@@ -32,6 +32,19 @@ public class AtividadeMenu extends AppCompatActivity {
         });
         //Termina o processo produtos
 
+        Button btnStatus = (Button)findViewById(R.id.btnStatus);
+        btnStatus.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(AtividadeMenu.this,AtividadeStatus.class);
+                startActivities(new Intent[]{i});
+            }
+        });
+
+        //Traz Janela Status
+
+
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
