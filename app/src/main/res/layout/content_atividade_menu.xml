@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sucos"
-        android:id="@+id/button2"
+        android:id="@+id/btnSucos"
         android:layout_alignBottom="@+id/btnDoces"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -51,8 +51,8 @@
         android:text="Salgados"
         android:id="@+id/button4"
         android:layout_alignBottom="@+id/button3"
-        android:layout_alignRight="@+id/button2"
-        android:layout_alignEnd="@+id/button2" />
+        android:layout_alignRight="@+id/btnSucos"
+        android:layout_alignEnd="@+id/btnSucos" />
 
     <Button
         android:layout_width="wrap_content"

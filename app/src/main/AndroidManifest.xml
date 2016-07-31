@@ -54,6 +54,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="kju.projeto.projetokju.AtividadeMenu" />
         </activity>
+        <activity
+            android:name=".AtividadeSucos"
+            android:label="@string/title_activity_atividade_sucos"
+            android:parentActivityName=".AtividadeMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kju.projeto.projetokju.AtividadeMenu" />
+        </activity>
     </application>
 
 </manifest>

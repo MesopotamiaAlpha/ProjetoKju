@@ -32,6 +32,7 @@ public class AtividadeMenu extends AppCompatActivity {
         });
         //Termina o processo produtos
 
+        //Traz a tela status
         Button btnStatus = (Button)findViewById(R.id.btnStatus);
         btnStatus.setOnClickListener(new View.OnClickListener(){
 
@@ -41,9 +42,21 @@ public class AtividadeMenu extends AppCompatActivity {
                 startActivities(new Intent[]{i});
             }
         });
+        //Termina o processo
 
         //Traz Janela Status
 
+        //Traz a janela de sucos
+        Button btnSucos = (Button)findViewById(R.id.btnSucos);
+        btnSucos.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(AtividadeMenu.this,AtividadeSucos.class);
+                startActivities(new Intent[]{i});
+            }
+        });
+        //Termina o processo
 
 
 
