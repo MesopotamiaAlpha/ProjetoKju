@@ -57,7 +57,17 @@ public class AtividadeMenu extends AppCompatActivity {
         });
         //Termina o processo
 
+        //Traz a janela de quantidade
+        Button btnQuantidade = (Button)findViewById(R.id.btnQuantidade);
+        btnQuantidade.setOnClickListener(new View.OnClickListener(){
 
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(AtividadeMenu.this,AtividadeQuantidade.class);
+                startActivities(new Intent[]{i});
+            }
+        });
+        //Termina o processo
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

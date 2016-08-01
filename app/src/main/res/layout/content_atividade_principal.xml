@@ -18,12 +18,10 @@
         android:id="@+id/imageView2"
         android:layout_gravity="center_horizontal|top"
         android:background="@mipmap/logo"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentStart="false"
-        android:layout_marginLeft="85dp"
+        android:layout_marginLeft="86dp"
         android:layout_marginRight="70dp"
-        android:layout_marginBottom="350dp"
-        android:layout_marginTop="-5dp" />
+        android:layout_marginBottom="310dp"
+        android:layout_marginTop="-7dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -52,32 +50,22 @@
         android:layout_alignEnd="@+id/edtUsuario"
         android:hint="Senha"/>
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="73dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Logar"
+        android:id="@+id/btnLogar"
+        android:layout_below="@+id/edtSenha"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
 
-        <Button
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:text="Logar"
-            android:id="@+id/btnLogar"
-            android:layout_below="@+id/edtSenha"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-            android:layout_marginBottom="-120dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Status login"
-            android:id="@+id/lblResultado"
-            android:layout_gravity="left|bottom" />
-
-    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Status login"
+        android:id="@+id/lblResultado"
+        android:layout_alignBottom="@+id/btnLogar"
+        android:layout_marginBottom="-60dp"/>
 
 </RelativeLayout>
