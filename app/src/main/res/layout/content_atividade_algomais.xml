@@ -9,35 +9,37 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="kju.projeto.projetokju.AtividadeQuantidade"
-    tools:showIn="@layout/activity_atividade_quantidade">
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="124dp" />
+    tools:context="kju.projeto.projetokju.AtividadeAlgomais"
+    tools:showIn="@layout/activity_atividade_algomais">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Adicione a sua quantidade"
-        android:id="@+id/textView2"
-        android:layout_alignBottom="@+id/editText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Algo mais?"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="48dp" />
+        android:layout_marginTop="56dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Confirmar"
-        android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:text="Sim"
+        android:id="@+id/button5"
+        android:layout_below="@+id/textView9"
+        android:layout_toLeftOf="@+id/textView9"
+        android:layout_toStartOf="@+id/textView9"
+        android:layout_marginTop="181dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nao"
+        android:id="@+id/button7"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9" />
 </RelativeLayout>

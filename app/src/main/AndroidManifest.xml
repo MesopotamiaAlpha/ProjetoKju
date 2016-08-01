@@ -63,6 +63,33 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="kju.projeto.projetokju.AtividadeMenu" />
         </activity>
+        <activity
+            android:name=".AtividadeAlgomais"
+            android:label="@string/title_activity_atividade_algomais"
+            android:parentActivityName=".AtividadeQuantidade"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kju.projeto.projetokju.AtividadeQuantidade" />
+        </activity>
+        <activity
+            android:name=".AtividadeResultado"
+            android:label="@string/title_activity_atividade_resultado"
+            android:parentActivityName=".AtividadeAlgomais"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kju.projeto.projetokju.AtividadeAlgomais" />
+        </activity>
+        <activity
+            android:name=".AtividadeMuitoobrigado"
+            android:label="@string/title_activity_atividade_muitoobrigado"
+            android:parentActivityName=".AtividadeAlgomais"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kju.projeto.projetokju.AtividadeAlgomais" />
+        </activity>
     </application>
 
 </manifest>

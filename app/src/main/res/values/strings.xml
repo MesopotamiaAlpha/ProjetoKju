@@ -7,4 +7,7 @@
     <string name="title_activity_atividade_quantidade">Atividade Quantidade</string>
     <string name="title_activity_atividade_status">Atividade Status</string>
     <string name="title_activity_atividade_sucos">Atividade Sucos</string>
+    <string name="title_activity_atividade_algomais">AtividadeAlgomais</string>
+    <string name="title_activity_atividade_resultado">AtividadeResultado</string>
+    <string name="title_activity_atividade_muitoobrigado">AtividadeMuitoobrigado</string>
 </resources>
