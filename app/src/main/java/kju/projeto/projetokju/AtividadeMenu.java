@@ -44,7 +44,6 @@ public class AtividadeMenu extends AppCompatActivity {
         });
         //Termina o processo
 
-        //Traz Janela Status
 
         //Traz a janela de sucos
         Button btnSucos = (Button)findViewById(R.id.btnSucos);
@@ -57,6 +56,7 @@ public class AtividadeMenu extends AppCompatActivity {
             }
         });
         //Termina o processo
+
 
 
 

@@ -10,7 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="kju.projeto.projetokju.AtividadeMenu"
-    tools:showIn="@layout/activity_atividade_menu">
+    tools:showIn="@layout/activity_atividade_menu"
+    android:background="@mipmap/background">
 
     <Button
         android:layout_width="wrap_content"
@@ -73,4 +74,25 @@
         android:layout_alignBottom="@+id/btnStatus"
         android:layout_alignRight="@+id/button4"
         android:layout_alignEnd="@+id/button4" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tela quantidade"
+        android:id="@+id/btnQuantidade"
+        android:layout_below="@+id/btnStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bem vindo!"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F85F9F"
+        android:textStyle="bold|italic"/>
 </RelativeLayout>

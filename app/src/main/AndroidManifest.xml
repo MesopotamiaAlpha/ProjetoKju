@@ -46,8 +46,8 @@
                 android:value="kju.projeto.projetokju.AtividadeProdutosDoces" />
         </activity>
         <activity
-            android:name=".AtividadeStatus"
-            android:label="@string/title_activity_atividade_status"
+            android:name=".AtividadeSucos"
+            android:label="@string/title_activity_atividade_sucos"
             android:parentActivityName=".AtividadeMenu"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -55,8 +55,8 @@
                 android:value="kju.projeto.projetokju.AtividadeMenu" />
         </activity>
         <activity
-            android:name=".AtividadeSucos"
-            android:label="@string/title_activity_atividade_sucos"
+            android:name=".AtividadeStatus"
+            android:label="@string/title_activity_atividade_status"
             android:parentActivityName=".AtividadeMenu"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
