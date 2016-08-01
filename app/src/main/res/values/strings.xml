@@ -4,7 +4,7 @@
     <string name="title_activity_atividade_menu">Atividade Menu</string>
     <string name="title_activity_atividade_produtos_doces">Atividade Produtos Doces</string>
     <string name="section_format">Produto: %1$d</string>
-    <string name="title_activity_atividade_quantidade">AtividadeQuantidade</string>
-    <string name="title_activity_atividade_status">AtividadeStatus</string>
-    <string name="title_activity_atividade_sucos">AtividadeSucos</string>
+    <string name="title_activity_atividade_quantidade">Atividade Quantidade</string>
+    <string name="title_activity_atividade_status">Atividade Status</string>
+    <string name="title_activity_atividade_sucos">Atividade Sucos</string>
 </resources>
