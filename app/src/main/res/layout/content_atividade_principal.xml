@@ -21,21 +21,19 @@
         android:layout_marginLeft="86dp"
         android:layout_marginRight="70dp"
         android:layout_marginBottom="310dp"
-        android:layout_marginTop="-7dp" />
+        android:layout_marginTop="-7dp"
+        tools:ignore="RtlHardcoded"
+        android:contentDescription="@string/o" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:hint="Usuario"
+        android:hint="@string/usuario"
         android:ems="10"
         android:id="@+id/edtUsuario"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="160dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -43,29 +41,40 @@
         android:inputType="numberPassword"
         android:ems="10"
         android:id="@+id/edtSenha"
+        android:hint="@string/senha"
+        android:layout_marginTop="16dp"
         android:layout_below="@+id/edtUsuario"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/edtUsuario"
-        android:layout_alignEnd="@+id/edtUsuario"
-        android:hint="Senha"/>
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
 
     <Button
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="Logar"
+        android:text="@string/logar"
         android:id="@+id/btnLogar"
+        android:layout_gravity="center"
         android:layout_below="@+id/edtSenha"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center"/>
+        android:layout_marginTop="38dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Status login"
+        android:text="@string/status_login"
         android:id="@+id/lblResultado"
-        android:layout_alignBottom="@+id/btnLogar"
-        android:layout_marginBottom="-60dp"/>
+        android:layout_below="@+id/btnLogar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblResultado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/usuario_teste_senha_1234" />
 
 </RelativeLayout>

@@ -10,4 +10,10 @@
     <string name="title_activity_atividade_algomais">AtividadeAlgomais</string>
     <string name="title_activity_atividade_resultado">AtividadeResultado</string>
     <string name="title_activity_atividade_muitoobrigado">AtividadeMuitoobrigado</string>
+    <string name="logar">Logar</string>
+    <string name="senha">Senha</string>
+    <string name="status_login">Status login</string>
+    <string name="usuario">Usuario</string>
+    <string name="usuario_teste_senha_1234">Usuario: teste senha:1234</string>
+    <string name="o">o</string>
 </resources>
