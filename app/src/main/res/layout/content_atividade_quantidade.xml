@@ -18,9 +18,9 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="124dp" />
+        android:layout_marginTop="32dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,9 +28,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Adicione a sua quantidade"
         android:id="@+id/textView2"
-        android:layout_alignBottom="@+id/editText"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="48dp" />
+        android:layout_marginTop="39dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -40,4 +40,5 @@
         android:id="@+id/button"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
