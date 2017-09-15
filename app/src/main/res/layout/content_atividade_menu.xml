@@ -16,7 +16,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Doces"
+        android:text="Bolo de festa"
         android:id="@+id/btnDoces"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -28,18 +28,19 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sucos"
+        android:text="Buffet brigadeiro"
         android:id="@+id/btnSucos"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignBaseline="@+id/btnDoces"
         android:layout_alignBottom="@+id/btnDoces"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="46dp"
-        android:layout_marginEnd="46dp" />
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lanches"
+        android:text="Brigadeiro"
         android:id="@+id/button3"
         android:layout_below="@+id/btnDoces"
         android:layout_alignLeft="@+id/btnDoces"
@@ -49,11 +50,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Salgados"
+        android:text="Chat"
         android:id="@+id/button4"
         android:layout_alignBottom="@+id/button3"
         android:layout_alignRight="@+id/btnSucos"
-        android:layout_alignEnd="@+id/btnSucos" />
+        android:layout_alignEnd="@+id/btnSucos"
+        android:layout_alignTop="@+id/button3" />
 
     <Button
         android:layout_width="wrap_content"
